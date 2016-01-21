@@ -48,6 +48,7 @@
 				pinctrl-names = "default";
 				pinctrl-0 = <&disp_pins>;
 				buswidth = <8>;
+				bgr;
 
 				spi-max-frequency = <16000000>;
 				rotate = <90>;
